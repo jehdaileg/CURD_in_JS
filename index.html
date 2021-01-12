@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/app.css">
+	<link rel="stylesheet" href="fontawesome-free/css/all.min.css">
+	<title>CRUD in JavaScript</title>
+</head>
+
+    <body onload="Read()" class="bg-dark text-white">
+
+    	<nav class="navbar bg-primary text-white">
+    		<a href="#" class="navbar-brand float-left text-white">AppCrud in Js</a>
+    		
+    	</nav>
+
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-6">
+    				<h5>Save Users here</h5>
+    				
+    				<form class="border border-info py-3" id="myForm">
+
+    					<div class="form-group">
+    						<label for="User"><span class="fa fa-user"></span> User:</label>
+    						<input type="text" class="form-control" placeholder="Enter username here..." id="name">
+    					</div>
+
+    					<button class="btn btn-primary"><span class="fa fa-plus"></span> Add User</button>
+    				</form>
+
+    			</div>
+
+    			<div class="col-6">
+    				<div id="userTR"></div>
+    			</div>
+    		</div>
+    	</div>
+
+    	<footer class="text-muted fixed-bottom">
+    		<p class="text-white"><small>By:</small> JEHDAI &copy; 2021</p>
+    	</footer>
+
+    	
+    </body>
+
+
+<script src="js/app.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+	
+</body>
+</html>
